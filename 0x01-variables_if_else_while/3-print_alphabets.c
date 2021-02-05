@@ -8,23 +8,12 @@
 
 int main(void)
 {
-char c = 'a';
+char letter;
 
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
-
-c = 'A';
-
-hile (c <= 'Z')
-{
-putchar(c);
-c++;
-}
-
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+for (letter = 'A'; letter <= 'Z'; letter++)
+putchar(letter);
 putchar('\n');
-
 return (0);
 }
