@@ -8,30 +8,30 @@
 
 int main(void)
 {
-  int i, j, k;
+int i, j, k;
 
-  i = 0;
+i = 0;
 
-  while (i < 100)
-    {
-      j = i % 10; /* singles digit */
-      k = i / 10; /* doubles digit */
+while (i < 100)
+{
+j = i % 10; /* singles digit */
+k = i / 10; /* doubles digit */
 
-      if (k < j)
-	{
-	  putchar(k + '0');
-	  putchar(j + '0');
+if (k < j)
+{
+putchar(k + '0');
+putchar(j + '0');
 
-	  if (i < 89)
-	    {
-	      putchar(44);
-	      putchar(32);
-	    }
-	}
+if (i < 89)
+{
+putchar(44);
+putchar(32);
+}
+}
 
-      i++;
-    }
-  putchar('\n');
+i++;
+}
+putchar('\n');
 
-  return (0);
+return (0);
 }
