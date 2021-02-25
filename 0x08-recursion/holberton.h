@@ -13,3 +13,4 @@ int get_length(char *s);
 int my_pal(char *s, int l);
 int _sqrt(int x, int i);
 int halp(int c, int i);
+int prime_or_nuhh(int a, int b);

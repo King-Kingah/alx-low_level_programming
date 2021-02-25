@@ -8,30 +8,17 @@
 
 int is_prime_number(int n)
 {
-if (n < 2)
-return (0);
-if (n < 4)
-return (1);
-return (hai(n, 2));
+return (prime_or_nuhh(n, 2));
 }
 
-int _sqrt(int x, int i)
+int prime_or_nuhh(int a, int b)
 {
-int square;
-
-square = i * i;
-if (square >= x)
-return (i);
-else
-return (_sqrt(x, i + 1));
-}
-
-int hai(int n, int d)
-{
-if (n % d == 0)
+if (a == 1 || a < 0)
 return (0);
-else if (_sqrt(n, 1) < d)
+if (a == b)
 return (1);
+if (a % b == 0)
+return (0);
 else
-    return (hai(n, d + 1));
+return (prime_or_nuhh(a, b + 1)); 
 }
