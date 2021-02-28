@@ -11,18 +11,18 @@
 
 int main(int argc, char *argv[])
 {
-int sum, i;
+int total, i;
 char *p;
 int num;
 
-sum = 0;
+total = 0;
 if (argv > 1)
 {
 for (i = 1; argv[i]; i++)
 {
 num = strtol(argv[i], &p, 10);
 if (!*p)
-sum += num;
+total += num;
 else
 {
 printf("Error\n");
@@ -30,7 +30,7 @@ return (1);
 }
 }
 }
-printf("%d\n", sum);
+printf("%d\n", total);
 
 return (0);
 }
