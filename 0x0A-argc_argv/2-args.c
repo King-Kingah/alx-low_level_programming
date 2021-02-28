@@ -1,4 +1,4 @@
-65;6003;1c#include "holberton.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
