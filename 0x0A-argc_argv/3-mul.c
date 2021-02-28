@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers.
@@ -20,5 +21,5 @@ return (0);
 else
 printf("Error\n");
 
-return (0);
+return (1);
 }
