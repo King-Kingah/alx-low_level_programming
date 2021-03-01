@@ -4,8 +4,8 @@
 
 /**
  * main - multiplies two numbers.
- * @argc:
- * @argv:
+ * @argc: arg counter
+ * @argv: arg vector
  * Return: 1 if erroneous, 0 if correct
  */
 
