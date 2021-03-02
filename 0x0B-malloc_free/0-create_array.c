@@ -1,4 +1,4 @@
-#include "holberton.h"
+B65;6003;1c#include "holberton.h"
 #include <stdlib.h>
 
 /**
@@ -11,7 +11,7 @@
 char *create_array(unsigned int size, char c)
 {
 char *p;
-unisgned int i;
+unsigned int i;
 
 if (size == 0)
 return (NULL);
