@@ -25,7 +25,7 @@ return (NULL);
 
 for (c = 0; c < i; c++)
 p[c] = str[c];
-p[c] = '\0'
+p[c] = '\0';
 
 return (p)
 }
