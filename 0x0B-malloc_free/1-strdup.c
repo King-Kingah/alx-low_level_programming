@@ -4,21 +4,19 @@
 /**
  * *_strdup - returns a pointer to a newly allocated space in memory
  * @str: string
- *
  * Return: NULL if str = NULL, insufficient memory
  */
 
 char *_strdup(char *str)
 {
 char *p;
-int i, c;
+int i;
+int c;
 
 if (str == NULL)
 return (NULL);
-
 for (i = 0; str[i] != '\0'; i++)
 ;
-
 p = malloc(i * sizeof(*p) + 1);
 if (p == NULL)
 return (NULL);
