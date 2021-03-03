@@ -20,14 +20,14 @@ if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
-for (x = 0, conct = 0; x < ac; x++)
+for (x = 0, total = 0; x < ac; x++)
 {
-for (y =0; *(*(av + 1) + j) != '\0'; y++, conct++);	
-conct++;
+for (y =0; *(*(av + 1) + j) != '\0'; y++, total++);	
+total++;
 }
-conct++;
+total++;
 
-p = malloc(i * sizeof(char));
+p = malloc(total * sizeof(char));
 if (p == NULL)
 {
 return (NULL);
