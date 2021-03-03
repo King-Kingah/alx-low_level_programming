@@ -11,32 +11,39 @@
 
 char *argstostr(int ac, char **av)
 {
-  int i = 0;
-  int j;
-  int x;
-  int y;
-  char *p;
+int x;
+int y;
+int total; 
+char *p, *conct;
 
-  if (ac == 0 || av == NULL)
-    {
-      return (NULL);
-    }
-  for (i = 0, x = 0, y = 0; x < ac; i++)
-    {
-      if (av[x][y] == '\0')
-	{
-	  x++;
-	}
-    }
-  p = malloc(i * sizeof(char));
-  if (p == NULL)
-    {
-      return (NULL);
-    }
-  for (i = 0, j = 0; i < ac; i++, j++)
-    {
-      p[j] = av[i][j];
-    }
+if (ac == 0 || av == NULL)
+{
+return (NULL);
+}
+for (x = 0, conct = 0; x < ac; x++)
+{
+for (y =0; *(*(av + 1) + j) != '\0'; y++, conct++);	
+conct++;
+}
+conct++;
 
-  return (p);
+p = malloc(i * sizeof(char));
+if (p == NULL)
+{
+return (NULL);
+}
+
+conct = p;
+for (x = 0, x < ac; x++)
+{
+for (y = 0; av[x][y] != '\0'; y++)
+{
+*p = av[x][y];
+p++;
+}
+*p ='\n';
+p++;
+}
+
+return (conct);
 }
