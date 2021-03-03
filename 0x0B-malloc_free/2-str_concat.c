@@ -5,7 +5,6 @@
  * *str_concat - concatenates two strings.
  * @s1: char string
  * @s2: char string
- * 
  * Return: NULL on failure
  */
 
