@@ -8,7 +8,8 @@
  * Return: NULL if 0, NULL if fails
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size){
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
 int *a;
 unsigned int i;
 
