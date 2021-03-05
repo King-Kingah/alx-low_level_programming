@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 
 /**
  * malloc_checked - allocates memory using malloc
@@ -9,11 +10,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-void *a;
+void *arr;
 
- a = malloc(sizeof(a) * b);
-if (a == NULL)
+arr = malloc(b);
+if (arr == NULL)
 exit(98);
 
-return (a);
+return (arr);
 }
