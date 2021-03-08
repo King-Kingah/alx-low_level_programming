@@ -3,11 +3,18 @@
 
 /**
  * init_dog - initialize a variable of type struct dog
- * Return: 0;
+ * @d: struct dog
+ * @name: str - dog's name
+ * @age: int dog's age
+ * @owner: str, dog's owner
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-  struct dog *d = {};
-  return (0);
+if (d != NULL)
+{
+d->name = name;
+d->age = age;
+d->owner = owner;
+}
 }
