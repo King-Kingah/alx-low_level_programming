@@ -6,9 +6,9 @@
  * Return: zero (succesfull)
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
-putchar("%s\n", __FILE__);
+printf("%s\n", __FILE__);
 
 return (0);
 }
