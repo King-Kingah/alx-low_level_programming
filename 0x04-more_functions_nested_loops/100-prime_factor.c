@@ -19,7 +19,7 @@ if (num % c == 0)
 printf("%d\n", c);
 break;
 }
-   }
+}
 
-  return (0);
+return (0);
 }

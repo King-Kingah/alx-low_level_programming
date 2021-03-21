@@ -22,7 +22,7 @@ while (x < size)
 _putchar('#');
 x++;
 }
-      _putchar('\n');
+_putchar('\n');
 y++;
 }
 }

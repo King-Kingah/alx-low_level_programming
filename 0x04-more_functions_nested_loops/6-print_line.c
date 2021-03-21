@@ -16,5 +16,5 @@ _putchar('_');
 
 c++;
 }
-  _putchar('\n');
+_putchar('\n');
 }

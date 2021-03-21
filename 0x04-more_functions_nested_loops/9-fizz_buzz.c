@@ -26,7 +26,7 @@ if (i != 100)
 printf(" ");
 i++;
 }
-  printf("\n");
+printf("\n");
 
 return (0);
 }

@@ -19,15 +19,15 @@ while (i > 0)
 _putchar(' ');
 i--;
 }
-      while (j > 0)
+while (j > 0)
 {
 _putchar('#');
 j--;
 }
-      _putchar('\n');
+_putchar('\n');
 c++;
 }
 
-  if (size <= 0)
+if (size <= 0)
 _putchar('\n');
 }
